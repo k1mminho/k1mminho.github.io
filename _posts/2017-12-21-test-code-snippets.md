@@ -1,42 +1,38 @@
 ---
 layout: post
-title:  "code snippet test"
-date:   2017-12-21
+title:  "얼굴 랜드마크 감지 구현해보기 1일차"
+date:   2025-03-25
 desc: "Quick test on writing code snippets in a blog post"
-keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
+keywords: "blog"
 categories: [HTML]
-tags: [Jalpc,Jekyll]
+tags: [googleAI]
 icon: icon-html
 ---
+  1. 헤어 추천 어플을 만들기 위해 구글 AI for Developers 를 통한
+    얼굴 랜드마크 감지 기능을 알아보기
 
-This is a raw snippet:
+    <img src=''>
 
-```
-hello world
-123
-This is a text snippet
-```
+    - node js 기본 설정
+    ```
+    npm init 
+    npm init -y
+    npm install express 
+    ```
+    ```
+    const express = require('express')
+    const app = express()
+    const port = 3000
+    app.get('/', (req,res) =>{
+        res.send('hello world')
+    })
+
+    app.listen(port, () =>{
+        console.log(Example app listening on port 'http://localhost:${port}'`)
+    })
+    ```
 
 
-This is a JavaScript snippet:
-
-```
-const add = (a, b) => a + b
-const minus = (a, b) => a - b
-
-console.log(add(100,200))  // 300
-console.log(minus(100,200))  // -100
-```
-
-This is a Python snippet:
-
-```
-def say_hello():
-    print("hello world!")
-
-say_hello()   // "hello world!"
-```
-
----
-
-Side note comment: applied a bug fix similar to [this commit](https://github.com/Atlas7/atlas7.github.io/commit/6659f4a47f6ec66987adb0f683a9c6f3842252ae#diff-818954a41dbfb01af70050a459c603b9) to ensure code snippet does not collapse unexpectly upon clicking on it. This issue is tracked [here](https://github.com/jarrekk/Jalpc/issues/97).
+    ```npm install @mediapipe/tasks-vision```
+        입력하여 패키지 설치
+    - 
