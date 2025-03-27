@@ -11,7 +11,7 @@ icon: icon-html
   1. 헤어 추천 어플을 만들기 위해 구글 AI for Developers 를 통한
     얼굴 랜드마크 감지 기능을 알아보기
 
-    <img src=''>
+   //img src=''>
 
     - node js 기본 설정
     ```
