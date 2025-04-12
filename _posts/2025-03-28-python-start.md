@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "파이썬 시작해보기"
+title: "파이썬 FastAPI 서버 실행해보기"
 date: 2025-03-28
 desc: "3 Steps (2 minutes) to Setup Your Personal Website with Jalpc"
 keywords: ""
